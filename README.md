@@ -2,9 +2,19 @@
 
 Physical Computing / Modeling Tool for 3D VJ  
 
+![photo](photo/System.jpg)  
+
 w/ Rhinoceros, Grasshopper Processing, and Arduino  
 
+---  
 
+
+### Ori-Con
+
+Reference というか、僕の個人的に結構衝撃だったプロダクトのイメージがあって、3D ジオメトリと、フィジカルコンピューティングネタをいつかやりたかった。  
+
+![photo](photo/ori-con.png)  
+[https://www.youtube.com/watch?v=UwKOwHzuAqo](https://www.youtube.com/watch?v=UwKOwHzuAqo)  
 
 
 ---  
