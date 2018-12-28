@@ -16,19 +16,9 @@ w/ Rhinoceros 5, Grasshopper 0.9, gHowl, Firefly, Processing 2, and Arduino
 ---  
 
 
-### Ori-Con
-
-Reference というか、僕の個人的に結構衝撃だったプロダクトのイメージがまずあって、3D ジオメトリとフィジカルコンピューティングのネタをいつかやりたかった。  
-
-[https://www.youtube.com/watch?v=UwKOwHzuAqo](https://www.youtube.com/watch?v=UwKOwHzuAqo)  
-
-![photo](photo/ori-con.png)  
-
-
----  
-
-
 ### Hardware  
+
+![photo](photo/Controller.jpg)  
 
 秋月で可変抵抗を買った。  
 スライダーのもの（100円）と、つまみを回すもの(40円)。  
@@ -53,6 +43,18 @@ Python コンポーネントで、while をまわす。同じコードを、.py 
 実装が冗長になるが、一回、Processing で、Serial を読んで、OSC に送る方法で解決...  
 
 イーサネットのシールドがあると、Arduino から、OSC が使えるっぽい。
+
+
+---  
+
+
+### Ori-Con
+
+Reference というか、僕の個人的に結構衝撃だったプロダクトのイメージがまずあって、3D ジオメトリとフィジカルコンピューティングのネタをいつかやりたかった。  
+
+[https://www.youtube.com/watch?v=UwKOwHzuAqo](https://www.youtube.com/watch?v=UwKOwHzuAqo)  
+
+![photo](photo/ori-con.png)  
 
 
 ---  
