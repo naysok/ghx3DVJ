@@ -41,7 +41,9 @@ void draw(){
 
 
 
-  myString = myPort.readString();
+//  myString = myPort.readString();
+  myString = myPort.readStringUntil('\n');
+  
 
   if (myString == null){
     // println("NULL");
