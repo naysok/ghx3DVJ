@@ -23,27 +23,9 @@ void setup(){
 void draw(){
 
 
-  noStroke();
-  fill(0,0,0);
-  rect(0,0, width,height);
-
-
-
-  // Print FPS
-  fill(255);
-  stroke(255);
-  textSize(14);
-
-  float fr = float(round(frameRate*pow(10,2))) /pow(10,2);
-  text(fr+" fps",20,20); // frameRate = fr
-
-
-
-
-
 //  myString = myPort.readString();
   myString = myPort.readStringUntil('\n');
-  
+
 
   if (myString == null){
     // println("NULL");
@@ -57,6 +39,23 @@ void draw(){
 //    print(sensors.length);
 
     if (sensors.length == 6){
+
+
+      // background
+      noStroke();
+      fill(0,0,0);
+      rect(0,0, width,height);
+
+
+      // Print FPS
+      fill(255);
+      stroke(255);
+      textSize(14);
+
+      float fr = float(round(frameRate*pow(10,2))) /pow(10,2);
+      text(fr+" fps",20,20); // frameRate = fr
+
+
 
 
       OscMessage myMessage = new OscMessage("/test");
